@@ -93,20 +93,20 @@ body{
  height: 100vh;
  width: 100%; 
  position: relative;  
- background: url('https://im.indiatimes.in/facebook/2017/Sep/6_1504341407_1504341412.jpg');
+ background: url(images/banner.jpg);
  background-position: center;
  background-size: cover;
- filter: blur(4px);
+ filter: blur(3px);
 }
 .center-box{
     display: none;
-    width: 65%;
+    width: 60%;
     gap: 20px;
     line-height: 1.2;
      display: flex;
      position: absolute;
      top: 40%;
-     left: 15%;
+     left: 20%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
