@@ -1,0 +1,352 @@
+#about-home{
+    height: 60vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://yourteenmag.com/wp-content/uploads/2016/02/college-campus.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#about-home h2{
+    font-size: 4.5vw;
+    color: #fff;
+}
+#about-container{
+    display: flex;
+}
+ .left-container{
+    padding: 10vh 0vh 0vh 0vh;
+  }
+.img-box{
+   width: 50%; 
+  display: flex;
+}
+.img-box img{
+    height: 500px;
+    width: 600px;
+}
+.right-container h2{
+    font-size: 3vw;
+    font-weight: 700;
+    margin-bottom:30px ;
+}
+.right-container{
+    padding-top: 20vh;
+    padding-right: 10vh;
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 30px; */
+}
+.right-container .about-fea {
+    display: flex;
+    margin: 20px 0;
+
+}
+.right-container .about-fea img{
+    height: 60px;
+    margin-right:14px;
+}
+.right-container p{
+    color: grey;
+    font-size: 1.5vw;
+}
+
+/* Trusted By Section  */
+
+#trusted-by{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 13vh;
+}
+#trusted-by h1
+{
+  font-size: 4.5vw;
+}
+#trusted-by p
+{
+  font-size: 1.7vw;
+}
+
+.college-imges{
+    display: flex;
+}
+.college-imges img{
+    height: 60px;
+}
+.all-clg-images{
+     width: 80%;
+     margin-top: 30px;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     gap: 10px;
+     align-items: center;
+ }
+
+ /* Blog Page  */
+
+ #blog-container{
+    display: flex;
+    padding: 5vw 5vw;
+    gap: 100px;
+}
+ .blogs img{
+   height: 28vw;
+   width: 40vw;
+   margin-right: 20px;
+   margin-bottom: 10px;
+   border-radius: 20px;
+ }
+ .blogs{
+    width: 40%;
+ }
+.post{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+}
+.blogs .post h3{
+    padding: 1vw 0;
+    color: #29303b;
+    font-size: 2.7vw;
+}
+.blogs .post p{
+    color: grey;
+    font-size: 1.8vw;
+}
+.blogs .post a{
+     background-color: blue;
+     width: 150px;
+     margin-top: 10px;
+     padding: 10px 20px;
+     color: white;
+     text-decoration: none; 
+     border-radius: 4px;
+     transition: all 0.3s;
+     text-align: center;
+     font-weight: 600;
+}
+.blogs .post a:hover{
+    background-color: #29303b;
+}
+#blog-container .categories{
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+#blog-container .categories a{
+    text-decoration: none;
+}
+#blog-container .categories hr{
+   margin: 10px 0;
+
+}
+/* BlogPost */
+
+.blogpost{
+    width: 10%;
+    width: 60%;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+
+/* Course Page Section  */
+
+#courseInner{
+    padding: 6vw;
+}
+
+#courseInner .overView .left-part{
+  width: 100%;  
+}
+#courseInner .overView .left-part img{
+   height:30vw;
+   width: 50vw;
+   border-radius: 10px;
+   margin-bottom: 2vh;
+}
+#courseInner .overView .left-part .stars{
+    display: flex;
+    gap: 28vw;
+    align-items: center;
+    margin: 10px 0;
+}
+.stars i{
+    font-size: 1.2vw;
+    color: yellow;
+}
+#courseInner .overView {
+    display: flex;
+    justify-content: space-between;
+}
+#courseInner .overView .left-part .stars .price{
+    background-color: rgb(165, 165, 235);
+    color: blueviolet;
+    font-weight: bold;
+    padding: 6px 10px; 
+    border-radius: 2px;
+}
+#courseInner .overView .ins-detail{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#courseInner .overView .ins-detail  img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+
+}
+
+#courseInner .overView .ins-detail  .col{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+#courseInner .overView .right-part{
+  background-color: white;
+  box-shadow: 2px 3px 7px black;
+  border-radius: 10px;
+  padding: 20px;
+  height: 70vh;
+}
+#courseInner .overView .right-part h3{
+    font-size: 2vw;
+    margin-bottom: 30px;
+}
+#courseInner .overView .right-part .row{
+    display: flex;
+    color: blueviolet;
+    gap: 20px;
+    margin: 20px 0;
+}
+.row p{
+    color: black;
+}
+.corse-content .btn{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    margin-top: 20px;
+}
+.corse-content a{
+ background-color: blueviolet;
+ color: white;
+ padding: 10px 30px;
+ border-radius: 3px;
+ text-decoration: none;
+ text-align: center;
+}
+
+hr{
+    margin: 30px 0;
+}
+.course-det{
+    margin: 20px 0;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.why-learn .row{
+  display: flex;
+  gap: 20px;
+  margin: 10px 0;
+  align-items: center;
+}
+.why-learn .row p{
+    font-size: 2.3vh;
+}
+.why-learn h2{
+    margin-bottom: 40px;
+}
+.why-learn .row i{
+ background-color: blueviolet;
+  border-radius: 50%;
+  padding: 0.5vh;
+  color: white;
+  font-size: 1.2vh;
+}
+
+/* Contact Page  */
+
+
+
+#contact .contact-container{
+    padding: 6vw 8vw 6vw 8vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* First Part */
+.getInTouch{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.getInTouch h2{
+    font-size: 2.5vw;
+    font-weight: 800;
+
+}
+.getInTouch .row{
+    display: flex;
+    gap: 15px;
+    margin: 10px 0;
+}
+
+.social i{
+  border: 1px solid blueviolet;
+  text-align: center;
+  padding: 8px;
+  color: black;
+  transition: 0.3s;
+}
+
+.social i:hover{
+  transform: scale(1.2); 
+}
+
+
+.letsConnect{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   background-color: rgb(247, 237, 237);
+   padding: 40px;
+}
+.letsConnect .row{
+    display: flex;
+    align-items: center;
+}
+.letsConnect input{
+    height: 40px;
+    border: 0;
+    outline: none;
+    padding-left: 30px;
+}
+.letsConnect .row input{
+    height: 40px;
+    outline: none;
+    padding-left: 30px;
+    border: 0;
+}
+.letsConnect textarea{
+    border: 0;
+    outline: none;
+    height: 20vh;
+}
+#contact .contact-container p{
+    color: grey;
+}
+#map{
+    padding: 3vh 5vw 5vh 5vw;
+}
+#map iframe{
+    height: 80vh;
+    width: 100%;
+}

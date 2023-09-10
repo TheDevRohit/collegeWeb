@@ -1,0 +1,289 @@
+@media (max-width:1026px){
+    
+    .nav-bar{
+     padding: 26px 20px;
+    }
+    #menu-btn{
+        display: block;
+        margin-right:60px;
+        font-size: 33px;
+    }
+    #menu-close-btn{
+        display: initial;
+        position: absolute;
+        right: 340px;
+        top: 30px;
+        font-size: 30px;
+    }
+
+    .nav-links{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: -410px;
+        background-color: rgba(230, 230, 230, 0.9);
+        height: 100vh;
+        width: 40%;    
+        top: 0;
+        padding-top: 80px;
+    }
+
+    .nav-links  a{
+        padding: 0 80px;
+        font-size: 20px;
+        color: #fff;
+         margin-top: 60px; 
+    }
+
+
+   #home .center-box{
+     width: 100%;
+     padding: 0;
+   }
+   #home .center-box h2{
+    font-size: 4vw;
+   }
+    #home .center-box p{
+      font-size: 2vw;
+      font-weight: 500;
+  }
+  #coummunity{
+    padding: 10vh 0vh 10vh 0vh;
+    text-align: center;
+  }
+  #coummunity .swiper{
+     /* display: flex; */
+     flex-direction: column;
+  }
+
+  /* About Page */
+
+   #about-home{
+        height: 0vh;
+        display:flex;
+    }
+    .left-container{
+        width: 40%;
+        padding: 10vh 10vh 15vh 10vh;
+    }
+    .img-box{
+       width: 50%; 
+      display: flex;
+    }
+
+   .right-container{
+       padding-left: 12vh;
+        margin-top: -100px; 
+       display: flex;
+      flex-direction: column;
+      margin-left: 30px;
+    } 
+    .left-container{
+        padding: 0;
+    }
+
+    .left-container{
+    /* width: 60%; */
+    padding: 10vh 0vh 15vh 10vh;
+   }
+
+  /* Blog Page */
+  
+
+  .blogpost{
+    width: 100% !important;
+   padding-top: 100px;
+   margin: 0 auto;
+}
+
+
+}
+
+/* Ipad Mini */
+
+@media (max-width:820px){
+    footer .sub-btn{
+     flex-direction: column;
+    }
+    footer .sub-btn #input{
+        padding: 15px;
+    }
+    footer .copyright p{
+     font-size: 14px;
+    }
+    
+    
+}
+
+
+/* Mobile Responsive */
+
+
+@media (max-width:450px){
+   
+    #menu-btn{
+      padding-left: 100px;
+    }
+    #menu-close-btn{
+        left: 60px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    p{
+        margin-top: 10px;
+    }
+    #home .center-box h2{
+     font-size: 30px;
+    }
+    #home .center-box p{
+        font-size: 14px;
+        text-align: start; 
+    }
+    #features{
+        padding-top: 70px;
+    }
+   
+    #features p{
+        font-size: 14px;
+    }
+    #features .fea-box i{
+      font-size: 23px;
+    } 
+    #features .fea-box {
+       padding: 20px 20px;
+    } 
+      
+    #features .fea-box h2{
+        font-size: 24px;
+    } 
+      
+    #registration{
+        flex-direction: column;
+        text-align: center;
+        /* display: none; */
+    }
+    #registration .form h3{
+        font-size: 18px;
+    } 
+    #registration .form button{
+        padding: 15px 0;
+        font-size: 15px;
+    } 
+    #registration .tile{
+        flex-wrap: wrap;
+    }
+    .nav-links{
+        /* padding-right: 60px; */
+    }
+  
+    footer .foot-content{
+       flex-wrap: wrap;
+    }
+    footer .foot-content .content h3{
+       font-size: 24px;
+       margin: 20px 0;
+    }
+   
+   footer .copyright{
+    padding-bottom: 100px;
+ } 
+ footer .copyright p{
+    font-size: 14px;
+ }
+ footer .copyright{
+   flex-direction: column;
+   gap: 30px;
+ }
+.foot-content .content h3{
+    font-size: 40px;
+ }
+
+/* About Page  */
+
+#about-container{
+    flex-direction: column;
+}
+.left-container .img-box img{
+    height: 300px;
+    width: 400px;
+    padding-left: 60px;
+}
+.right-container{
+    padding-left: 5vw;
+ } 
+
+
+.all-experts{
+    padding-left: 20vw;
+    justify-content: space-between;
+} 
+
+/* Blog Page  */
+
+#blog-container {
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+}
+#blog-container .blogs{
+    width: 100%;
+}
+#blog-container .blogs img{
+    height:100%;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+#blog-container .categories{
+  width: 100%;
+  padding: 0;
+ }
+
+ /* Cousre Inner Section  */
+
+ #courseInner .overView .left-part{
+  width: 100%;    
+  padding: 0;
+ }
+#courseInner .overView{
+    flex-direction: column;
+}
+#courseInner .overView{
+padding: 0;
+}
+#courseInner .overView .left-part #c-image{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+}
+#courseInner  .stars i {
+    font-size: 20px;
+    color: yellow;
+} 
+
+/* Conatct Us */
+#contact .contact-container {
+    display: flex;
+    flex-direction: column; 
+}
+
+.letsConnect input {
+    height: 40px;
+    border: 0;
+    width:100%;   
+    outline: none;
+}
+.letsConnect{
+    margin-top: 30px;
+}
+.contact-container .getInTouch h2 {
+    font-size: 26px;
+    font-weight: 800;
+}
+ .row{
+    text-align: center;
+ }
+}
