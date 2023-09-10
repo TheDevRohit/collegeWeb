@@ -117,7 +117,7 @@ body{
 }
 .center-box h2{
     font-size: 3.4vw;
-    color: rgb(22, 19, 19);
+    color: white;
 }
 .btn{
     display: flex;
@@ -127,6 +127,7 @@ body{
 .center-box p{
     font-size: 1.4vw;
     text-align: center;
+    color: white;
 }
 .blue , .yellow{
     height: 40px;
