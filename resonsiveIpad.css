@@ -127,6 +127,13 @@
     #menu-close-btn{
         left: 60px;
     }
+    .nav-bar{
+        padding: 5;
+    }
+    .nav-bar img {
+        width: 120px;
+        height: 40px;
+    }
     h1{
         font-size: 30px;
     }
